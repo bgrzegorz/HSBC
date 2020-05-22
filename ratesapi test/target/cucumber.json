@@ -1,0 +1,475 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2100794,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepHook.java:17"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Latest rates - verify positive status of response",
+        "description": "",
+        "id": "ratesapi-tests;latest-rates---verify-positive-status-of-response",
+        "after": [
+          {
+            "result": {
+              "duration": 27992,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepHook.java:22"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2873089725,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Rates API for Latest Foreign Exchange rates is available",
+            "match": {
+              "location": "RestApiSteps.rates_API_for_Latest_Foreign_Exchange_rates_is_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Registering context variable, name: responseStatusCode, value: 200",
+              "Registering context variable, name: responseBody, value: {\"base\":\"EUR\",\"rates\":{\"GBP\":0.89563,\"HKD\":8.4571,\"IDR\":16249.14,\"ILS\":3.8459,\"DKK\":7.4578,\"INR\":82.7265,\"CHF\":1.0591,\"MXN\":25.045,\"CZK\":27.21,\"SGD\":1.5521,\"THB\":34.778,\"HRK\":7.5845,\"MYR\":4.7569,\"NOK\":10.9078,\"CNY\":7.7797,\"BGN\":1.9558,\"PHP\":55.349,\"SEK\":10.5373,\"PLN\":4.5209,\"ZAR\":19.2476,\"CAD\":1.5273,\"ISK\":156.3,\"BRL\":6.0857,\"RON\":4.8435,\"NZD\":1.787,\"TRY\":7.4227,\"JPY\":117.26,\"RUB\":77.9139,\"KRW\":1353.51,\"USD\":1.0904,\"HUF\":349.4,\"AUD\":1.6694},\"date\":\"2020-05-22\"}"
+            ],
+            "result": {
+              "duration": 1225325231,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I send request for the Latest Foreign Exchange rates",
+            "match": {
+              "location": "RestApiSteps.i_send_request_for_the_Foreign_Exchange_rates()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1659454,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify that response status is positive",
+            "match": {
+              "location": "RestApiSteps.verify_that_response_status_is_positive()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RestTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10731,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepHook.java:17"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Latest rates - verify positive response body",
+        "description": "",
+        "id": "ratesapi-tests;latest-rates---verify-positive-response-body",
+        "after": [
+          {
+            "result": {
+              "duration": 15862,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepHook.java:22"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1227256208,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Rates API for Latest Foreign Exchange rates is available",
+            "match": {
+              "location": "RestApiSteps.rates_API_for_Latest_Foreign_Exchange_rates_is_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Registering context variable, name: responseStatusCode, value: 200",
+              "Registering context variable, name: responseBody, value: {\"base\":\"EUR\",\"rates\":{\"GBP\":0.89563,\"HKD\":8.4571,\"IDR\":16249.14,\"ILS\":3.8459,\"DKK\":7.4578,\"INR\":82.7265,\"CHF\":1.0591,\"MXN\":25.045,\"CZK\":27.21,\"SGD\":1.5521,\"THB\":34.778,\"HRK\":7.5845,\"MYR\":4.7569,\"NOK\":10.9078,\"CNY\":7.7797,\"BGN\":1.9558,\"PHP\":55.349,\"SEK\":10.5373,\"PLN\":4.5209,\"ZAR\":19.2476,\"CAD\":1.5273,\"ISK\":156.3,\"BRL\":6.0857,\"RON\":4.8435,\"NZD\":1.787,\"TRY\":7.4227,\"JPY\":117.26,\"RUB\":77.9139,\"KRW\":1353.51,\"USD\":1.0904,\"HUF\":349.4,\"AUD\":1.6694},\"date\":\"2020-05-22\"}"
+            ],
+            "result": {
+              "duration": 1123433210,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I send request for the Latest Foreign Exchange rates",
+            "match": {
+              "location": "RestApiSteps.i_send_request_for_the_Foreign_Exchange_rates()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46887414,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify that response body contains base, rates and date",
+            "match": {
+              "location": "RestApiSteps.verifyThatResponseBodyContainsBaseRatesAndDate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RestTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10263,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepHook.java:17"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Latest rates - invalid url is provided",
+        "description": "",
+        "id": "ratesapi-tests;latest-rates---invalid-url-is-provided",
+        "after": [
+          {
+            "result": {
+              "duration": 13063,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepHook.java:22"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1124901854,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Rates API for Latest Foreign Exchange rates is available",
+            "match": {
+              "location": "RestApiSteps.rates_API_for_Latest_Foreign_Exchange_rates_is_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Registering context variable, name: responseStatusCode, value: 400",
+              "Registering context variable, name: responseBody, value: {\"error\":\"time data \u0027invalid\u0027 does not match format \u0027%Y-%m-%d\u0027\"}"
+            ],
+            "result": {
+              "duration": 1314823826,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I send request for the invalid url",
+            "match": {
+              "location": "RestApiSteps.iSendRequestForTheInvalidUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 263124,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify that response contains time data error message and status code",
+            "match": {
+              "location": "RestApiSteps.verifyThatResponseContainsProperErrorMessageAndStatusCode()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RestTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9331,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepHook.java:17"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Rates for specific date - positive status of response",
+        "description": "",
+        "id": "ratesapi-tests;rates-for-specific-date---positive-status-of-response",
+        "after": [
+          {
+            "result": {
+              "duration": 20528,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepHook.java:22"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1108207000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Rates API for Latest Foreign Exchange rates is available",
+            "match": {
+              "location": "RestApiSteps.rates_API_for_Latest_Foreign_Exchange_rates_is_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Registering context variable, name: responseStatusCode, value: 200",
+              "Registering context variable, name: responseBody, value: {\"base\":\"EUR\",\"rates\":{\"GBP\":0.86905,\"HKD\":8.43,\"IDR\":16178.05,\"ILS\":3.8069,\"DKK\":7.4584,\"INR\":81.6108,\"CHF\":1.0558,\"MXN\":25.7953,\"CZK\":27.097,\"SGD\":1.5324,\"THB\":35.216,\"HRK\":7.579,\"MYR\":4.6767,\"NOK\":11.184,\"CNY\":7.6665,\"BGN\":1.9558,\"PHP\":54.772,\"SEK\":10.6639,\"PLN\":4.5336,\"ZAR\":19.6572,\"CAD\":1.5077,\"ISK\":159.3,\"BRL\":5.8565,\"RON\":4.8431,\"NZD\":1.7705,\"TRY\":7.5979,\"JPY\":115.87,\"RUB\":79.892,\"KRW\":1313.09,\"USD\":1.0876,\"HUF\":352.72,\"AUD\":1.6598},\"date\":\"2020-04-30\"}"
+            ],
+            "result": {
+              "duration": 890571618,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I send request for the particular date of Foreign Exchange rates",
+            "match": {
+              "location": "RestApiSteps.iSendRequestForTheParticularDateOfForeignExchangeRates()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 753450,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Verify that response status is positive",
+            "match": {
+              "location": "RestApiSteps.verify_that_response_status_is_positive()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RestTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16329,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepHook.java:17"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Rates for specific date - positive response body",
+        "description": "",
+        "id": "ratesapi-tests;rates-for-specific-date---positive-response-body",
+        "after": [
+          {
+            "result": {
+              "duration": 33590,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepHook.java:22"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1194675002,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Rates API for Latest Foreign Exchange rates is available",
+            "match": {
+              "location": "RestApiSteps.rates_API_for_Latest_Foreign_Exchange_rates_is_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Registering context variable, name: responseStatusCode, value: 200",
+              "Registering context variable, name: responseBody, value: {\"base\":\"EUR\",\"rates\":{\"GBP\":0.86905,\"HKD\":8.43,\"IDR\":16178.05,\"ILS\":3.8069,\"DKK\":7.4584,\"INR\":81.6108,\"CHF\":1.0558,\"MXN\":25.7953,\"CZK\":27.097,\"SGD\":1.5324,\"THB\":35.216,\"HRK\":7.579,\"MYR\":4.6767,\"NOK\":11.184,\"CNY\":7.6665,\"BGN\":1.9558,\"PHP\":54.772,\"SEK\":10.6639,\"PLN\":4.5336,\"ZAR\":19.6572,\"CAD\":1.5077,\"ISK\":159.3,\"BRL\":5.8565,\"RON\":4.8431,\"NZD\":1.7705,\"TRY\":7.5979,\"JPY\":115.87,\"RUB\":79.892,\"KRW\":1313.09,\"USD\":1.0876,\"HUF\":352.72,\"AUD\":1.6598},\"date\":\"2020-04-30\"}"
+            ],
+            "result": {
+              "duration": 1177666639,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I send request for the particular date of Foreign Exchange rates",
+            "match": {
+              "location": "RestApiSteps.iSendRequestForTheParticularDateOfForeignExchangeRates()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14178845,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Verify values of rate for test date",
+            "match": {
+              "location": "RestApiSteps.verifyValuesOfRate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RestTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12129,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepHook.java:17"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Rates for future date - positive response body",
+        "description": "",
+        "id": "ratesapi-tests;rates-for-future-date---positive-response-body",
+        "after": [
+          {
+            "result": {
+              "duration": 52251,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepHook.java:22"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1225743711,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Rates API for Latest Foreign Exchange rates is available",
+            "match": {
+              "location": "RestApiSteps.rates_API_for_Latest_Foreign_Exchange_rates_is_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Registering context variable, name: responseStatusCode, value: 200",
+              "Registering context variable, name: responseBody, value: {\"base\":\"EUR\",\"rates\":{\"GBP\":0.89563,\"HKD\":8.4571,\"IDR\":16249.14,\"ILS\":3.8459,\"DKK\":7.4578,\"INR\":82.7265,\"CHF\":1.0591,\"MXN\":25.045,\"CZK\":27.21,\"SGD\":1.5521,\"THB\":34.778,\"HRK\":7.5845,\"MYR\":4.7569,\"NOK\":10.9078,\"CNY\":7.7797,\"BGN\":1.9558,\"PHP\":55.349,\"SEK\":10.5373,\"PLN\":4.5209,\"ZAR\":19.2476,\"CAD\":1.5273,\"ISK\":156.3,\"BRL\":6.0857,\"RON\":4.8435,\"NZD\":1.787,\"TRY\":7.4227,\"JPY\":117.26,\"RUB\":77.9139,\"KRW\":1353.51,\"USD\":1.0904,\"HUF\":349.4,\"AUD\":1.6694},\"date\":\"2020-05-22\"}"
+            ],
+            "result": {
+              "duration": 1152670780,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I send request for the future date of Foreign Exchange rates",
+            "match": {
+              "location": "RestApiSteps.iSendRequestForTheFutureDateOfForeignExchangeRates()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 675072,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Verify that response contains current date successful status code",
+            "match": {
+              "location": "RestApiSteps.verifyThatResponseContainsFutureDateErrorMessageAndStatusCode()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RestTest"
+          }
+        ]
+      }
+    ],
+    "name": "Ratesapi tests",
+    "description": "",
+    "id": "ratesapi-tests",
+    "keyword": "Feature",
+    "uri": "features/backend/ratesapi.feature",
+    "tags": []
+  }
+]
